@@ -494,7 +494,8 @@ textarea:focus{box-shadow:0px 0px 20px #3498db;}
         align-items: center;
         border:0px;
     }
-    :root{--w:85%;}
+    :root{--w:90%;}
     .cs{font-size:36px;}
     @keyframes hero {}
 }
+
