@@ -115,6 +115,7 @@ span:hover{color:#3498db;}
 .fb{
     border-radius:30px;
     border:3px solid #3498db;
+    background-color:white;
     color:#3498db;
     padding: 10px;
     width: 180px;
@@ -393,8 +394,7 @@ span:hover{color:#3498db;}
     margin-top:0px;
     font-weight:600;
 }
-.w{    width:100%;
-    height:100%;}
+.w{ width:100%;height:100%;}
 .points{
     display: grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
@@ -474,8 +474,7 @@ textarea:focus{box-shadow:0px 0px 20px #3498db;}
     box-shadow:0px 0px 10px gray;
 }
 .foco{
-    width:var(--w);
-    margin-bottom:40px;
+    width:var(--w);margin-bottom:40px;
 }
 .foca{color: #3498db;}
                                         /* MEDIA QUERY */
@@ -493,9 +492,9 @@ textarea:focus{box-shadow:0px 0px 20px #3498db;}
         display: flex;
         align-items: center;
         border:0px;
+        background-color:white;
     }
     :root{--w:90%;}
     .cs{font-size:36px;}
     @keyframes hero {}
 }
-
